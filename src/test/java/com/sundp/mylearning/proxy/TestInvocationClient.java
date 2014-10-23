@@ -32,4 +32,14 @@ public class TestInvocationClient {
     public void testDelete() {
         client.delete("test");
     }
+
+    @Test
+    public void testInsert() {
+        client.insert("testInsert");
+    }
+
+    @Test
+    public void testGet() {
+        client.get();
+    }
 }

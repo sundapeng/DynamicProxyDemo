@@ -21,8 +21,8 @@ import java.lang.reflect.Proxy;
 
 public class ClientFactory {
 
-    public static ClientInterface getClient(boolean ha) {
-        if (!ha)
+    public static ClientInterface getClient(boolean useProxy) {
+        if (!useProxy)
             return new DefaultClient();
         else {
             ClientInterface defaultClient = new DefaultClient();

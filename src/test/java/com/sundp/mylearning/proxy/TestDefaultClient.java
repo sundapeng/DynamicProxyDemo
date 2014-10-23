@@ -30,6 +30,16 @@ public class TestDefaultClient {
 
     @Test
     public void testDelete() {
-        client.delete("test");
+        client.delete("testDelete");
+    }
+
+    @Test
+    public void testInsert() {
+        client.insert("testInsert");
+    }
+
+    @Test
+    public void testGet() {
+        client.get();
     }
 }
