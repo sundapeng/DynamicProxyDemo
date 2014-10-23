@@ -1,3 +1,3 @@
 DynamicProxyDemo
 ================
-A Demo for DynamicPro
+A Demo for DynamicProxy
